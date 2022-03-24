@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="icon" href="logo.png"/>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+    </style>
+    
+
+  <script src="https://kit.fontawesome.com/602d5b86c0.js" crossorigin="anonymous"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="index.css">
+  
+    <title>About</title>
+</head>
+<style>
+  .grid-container {
+    display: grid;
+    grid-gap: 10px;
+    background-color: transparent;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    
+    
+    font-size: 30px;
+  }
+  
+  .item1 {
+   
+    grid-column: 1;
+    grid-row: 1 / span 2;
+  }
+  
+  .item2 {
+  
+    grid-column: 2 / span 2;
+    grid-row: 1 / span 2;
+  }
+  .item5 {
+grid-column: 1 / span 3;
+grid-row: 3;
+}
+.images{
+  height: 298px;
+  width: 298px;
+}
+
+@media only screen and (max-width: 990px){
+  .item2,.item5{
+      font-size: 25px;
+  }
+  .images{
+      height: 240px;
+      width:240px;
+  }
+}
+@media only screen and (max-width: 803px){
+  .item2,.item5{
+      font-size: 20px;
+  }
+  .images{
+      height: 210px;
+      width:210px;
+  }
+}
+@media only screen and (max-width: 630px){
+  .item2,.item5{
+      font-size: 15px;
+  }
+  .images{
+      height: 180px;
+      width:180px;
+  }
+}
+@media only screen and (max-width: 480px){
+  .item2,.item5{
+      font-size: 12px;
+  }
+  .images{
+      height: 150px;
+      width:150px;
+  }
+}
+@media only screen and (max-width: 300px){
+  .item2,.item5{
+      font-size: 9px;
+  }
+  .images{
+      height: 110px;
+      width:110px;
+  }
+}
+  
+  
+  
+  </style>
+<body>
+    
+    
+    <nav class="navbar navbar-expand-md  navbar-dark" style="margin-top: 0; background-color: #000; border-radius: 0; border:0">
+        <!-- Brand -->
+        <img src="images/logo.png" class="logo" alt="logo" height="50px" , width="50px">
+        <b class="nav"  style="font-weight: bolder; font-size: larger; padding:5px; color: white;">Save Nature</b>
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="toggler-icon top-bar"></span>
+          <span class="toggler-icon middle-bar"></span>
+          <span class="toggler-icon bottom-bar"></span>
+        </button>
+    
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="service.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+    
+         
+    
+        </div>
+      </nav>
+
+      <h1 class="text-center" style="display: block;">About Us</h1>
+      <div class="grid-container">
+        <div class="grid-item item1"><img class="images" style="margin: 20px;padding: 10px; border:3px solid black; " src="images/caro2.jpg"></div>
+        <div class="grid-item item2"><h2><b>Together We Can Save The Nature</b></h2><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, voluptate. Dolores eius quod officia vero? Iure facilis odit assumenda, nostrum eligendi nesciunt maxime, consequuntur fuga suscipit vitae at beatae neque exercitationem. Veritatis ab omnis magni quasi totam. Consequuntur ad numquam molestias vitae distinctio, aperiam vel in facere esse ipsa quia laboriosam enim architecto harum amet rerum nemo aliquam voluptatibus ullam, natus, quasi at id! A, pariatur reprehenderit! Officia dicta excepturi numquam enim dolor sunt, porro accusantium aspernatur cum blanditiis, iusto quod consequuntur nesciunt.</div>
+        <div class="grid-item item5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores corrupti doloribus modi laboriosam. Quis saepe iure et quae iusto obcaecati perferendis, nobis repellat velit suscipit alias quidem, ipsam eius itaque cupiditate modi dolorum exercitationem ad ullam. Fugiat laborum veniam sapiente odit deleniti, corporis ullam, saepe delectus repellendus sint ad atque?</div>
+        
+      </div>
+      
+      <footer>
+        <div class="text-center">
+          <h3 class="font-weight-bold"  style="color: #dbc1ac;">Follow Us</h3>
+          <div class="d-flex flex-row justify-content-center">
+            <span><a href="#"><i class="fab fa-facebook fa-2x"></i></a></span>
+            <span><a href="#"><i class='fab fa-twitter fa-2x'></i></a></span>
+            <span><a href="#"><i class='fab fa-instagram fa-2x'></i></a></span>
+            <span><a href="#"><i class='fab fa-github fa-2x'></i></a></span>
+          </div>
+          <p>&copy; Copyright By Save Nature 2022</p>
+          <div class="top">
+            <a href="#top"><i class="fas fa-arrow-circle-up fa-2x"></i></a>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
